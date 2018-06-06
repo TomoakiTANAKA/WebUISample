@@ -1,2 +1,2 @@
-# CssSample
-CSSで実現するいろいろなサンプル
+# WebUISample
+CSSやjsで実現するいろいろなUIサンプル
