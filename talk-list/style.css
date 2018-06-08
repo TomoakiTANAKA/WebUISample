@@ -5,8 +5,19 @@
 
 .cardlist-area__row {
     margin-bottom: 20px;
+    border: 1px solid pink;
+    padding: 25px 0;
 }
 
+.message-card__title {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
 .message-card__content {
     border: 1px solid red;
     margin: 10px;
