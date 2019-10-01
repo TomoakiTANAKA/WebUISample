@@ -1,0 +1,13 @@
+.wizard-form__page {
+  border: 1px dotted;
+  border-radius: 3px;
+  margin: 0 10%;
+  padding: 10px 15px;
+}
+
+#js-form-page-2,
+#js-form-page-3,
+#js-form-page-4 {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

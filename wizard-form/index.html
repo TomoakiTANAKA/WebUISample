@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</head>
+
+<body>
+    <h1>wizard form</h1>
+    <p>開発効率を上げるため、formに初期値を入力しています</p>
+
+    <form action="" class="wizard-form">
+        <div id="js-form-page-1" class="wizard-form__page">
+            <p>
+                <label>Name
+                    <input type="text" name="customer_name" value="山田太郎" required>
+                </label>
+            </p>
+
+            <p>
+                <label>Email
+                    <input type="email" name="email_address" value="yamada.taro@gmail.com">
+                </label>
+            </p>
+
+            <p id="js-next-to-2" class="btn btn-primary">Next</p>
+        </div>
+
+        <div id="js-form-page-2" class="wizard-form__page">
+            <p>
+                <label>Pickup Place
+                    <select id="pickup_place" name="pickup_place">
+                        <option value="" selected="selected">Select One</option>
+                        <option value="office">Taxi Office</option>
+                        <option value="town_hall">Town Hall</option>
+                        <option value="telepathy">We'll Guess!</option>
+                    </select>
+                </label>
+            </p>
+
+
+            <p id="js-previous-to-1" class="btn btn-primary">Previous</p>
+            <p id="js-next-to-3" class="btn btn-primary">Next</p>
+
+        </div>
+
+        <div id="js-form-page-3" class="wizard-form__page">
+            <p>
+                <label>Special Instructions
+                    <textarea name="comments" maxlength="500"></textarea>
+                </label>
+            </p>
+
+            <p id="js-previous-to-2" class="btn btn-primary">Previous</p>
+            <p id="js-next-to-4" class="btn btn-primary">Next</p>
+
+        </div>
+
+        <div id="js-form-page-4" class="wizard-form__page">
+
+
+            <p><button>Submit Booking</button></p>
+        </div>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.wizard-form {
+    &__page {
+        // 適当に可愛らしいデザインをつける
+        border: 1px dotted;
+        border-radius: 3px;
+        margin: 0 10%;
+        padding: 10px 15px;
+    }
+}
+
+#js-form-page-2,
+#js-form-page-3,
+#js-form-page-4 {
+    display: none; // 初期値は非表示とする
+}
